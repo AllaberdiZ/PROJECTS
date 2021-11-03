@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: "Roboto", sans-serif;
+        font-family: "Roboto Condensed", sans-serif;
+      }
+
+      .topnav {
+        position: relative;
+        overflow: hidden;
+        background-color: rgb(255, 255, 255);
+      }
+
+      .topnav a {
+        float: left;
+        color: #000;
+        text-align: center;
+        padding: 25px 16px;
+        text-decoration: none;
+        font-size: 20px;
+      }
+
+      .topnav a:hover:not(.logo) {
+        background-color: #ddd;
+      }
+
+      .topnav-centered a {
+        float: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .topnav-centered img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        cursor: pointer;
+        height: 40px;
+      }
+
+      .topnav-right {
+        float: right;
+      }
+
+      .hero-image {
+        position: relative;
+        height: 500px;
+        width: 100%;
+        background-image: url("Rectangle.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      .hero-text {
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+        color: white;
+      }
+
+      .hero-text button {
+        border: none;
+        display: inline-block;
+        font-size: 15px;
+        font-family: robot;
+        font-family: "Roboto", sans-serif;
+        font-family: "Roboto Condensed", sans-serif;
+        color: #fff;
+        background-color: transparent;
+        cursor: pointer;
+        text-align: center;
+      }
+
+      @media screen and (max-width: 600px) {
+        .topnav a,
+        .topnav-right {
+          float: none;
+          display: block;
+        }
+
+        .topnav-centered a {
+          position: relative;
+          top: 0;
+          left: 0;
+          transform: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Top navigation -->
+    <div class="topnav">
+      <!-- Centered link -->
+      <div class="topnav-centered">
+        <a href="#" class="logo"><img src="GROWMADE.png" alt="" /></a>
+      </div>
+
+      <!-- Left-aligned links (default) -->
+      <a href="#news">SHOP</a>
+      <a href="#contact">EXPLORE</a>
+
+      <!-- Right-aligned links -->
+      <div class="topnav-right">
+        <a href="#search">MY CART</a>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <div class="hero-text">
+        <h1>The Desk Shelf System</h1>
+        <p>Available in Walnut or Maple</p>
+        <button class="button">LEARN MORE</button>
+      </div>
+    </div>
+  </body>
+</html>
