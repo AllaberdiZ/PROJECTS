@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  font-family: "Roboto", sans-serif;
   font-family: "Roboto Condensed", sans-serif;
+  overflow-x: hidden;
 }
 
 .topnav {
@@ -76,6 +76,75 @@ body {
   text-align: center;
 }
 
+.design-inspires {
+  position: relative;
+  background-color: #fff;
+}
+
+.design-inspires-text {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.design-inspires-text h1 {
+  font-size: 43px;
+  padding: 10px;
+  letter-spacing: 1px;
+  color: #000;
+}
+
+.design-inspires-text p {
+  font-size: 14px;
+  padding: 0 0 20px 0;
+  opacity: 0.5;
+  letter-spacing: 2px;
+  color: #000;
+}
+
+.design-inspires-text button {
+  border: none;
+  text-align: center;
+  background-color: transparent;
+  font-size: 17px;
+  font-family: "Roboto Condensed", sans-serif;
+  cursor: pointer;
+  letter-spacing: 2px;
+  color: #000;
+}
+
+.image-container {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  width: 90%;
+  margin: auto;
+}
+.image-container img {
+  max-width: 90%;
+  height: auto;
+}
+
+.laptopstands img {
+  margin-right: 20px;
+}
+.deskpads img {
+  margin-left: 20px;
+}
+
+.image-container h2 {
+  padding: 20px 0 10px 0;
+}
+
+.image-container button {
+  border: none;
+  text-align: center;
+  background-color: transparent;
+  font-size: 17px;
+  font-family: "Roboto Condensed", sans-serif;
+  cursor: pointer;
+  letter-spacing: 2px;
+  color: #000;
+}
 @media screen and (max-width: 600px) {
   .topnav a,
   .topnav-right {
