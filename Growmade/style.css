@@ -132,6 +132,7 @@ body {
 }
 
 .image-container h2 {
+  font-size: 30px;
   padding: 20px 0 10px 0;
 }
 
@@ -139,7 +140,7 @@ body {
   border: none;
   text-align: center;
   background-color: transparent;
-  font-size: 17px;
+  font-size: 15px;
   font-family: "Roboto Condensed", sans-serif;
   cursor: pointer;
   letter-spacing: 2px;
