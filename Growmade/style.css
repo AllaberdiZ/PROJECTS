@@ -96,9 +96,8 @@ body {
 .design-inspires-text p {
   font-size: 14px;
   padding: 0 0 20px 0;
-  opacity: 0.5;
   letter-spacing: 2px;
-  color: #000;
+  color: #a0a0a0;
 }
 
 .design-inspires-text button {
@@ -117,7 +116,7 @@ body {
   text-align: center;
   justify-content: space-around;
   width: 100%;
-  margin: 0 0 100px 0;
+  margin: 0 0 50px 0;
 }
 .image-container img {
   max-width: 90%;
@@ -145,6 +144,55 @@ body {
   cursor: pointer;
   letter-spacing: 2px;
   color: #000;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+.featured {
+  padding: 50px 0 0 0;
+  text-align: center;
+  height: 770px;
+}
+
+.featured p {
+  color: #a0a0a0;
+  font-size: 20px;
+}
+
+.featured h1 {
+  font-size: 35px;
+  padding: 10px;
+  letter-spacing: 1px;
+  color: #000;
+}
+
+.row {
+  width: 100%;
+  margin: 50px 0 50px 0;
+}
+.column {
+  float: left;
+  width: 25%;
+  height: 434px;
+}
+
+.column p {
+  text-align: center;
+  color: #a0a0a0;
 }
 @media screen and (max-width: 600px) {
   .topnav a,
