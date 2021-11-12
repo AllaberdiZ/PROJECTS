@@ -59,11 +59,26 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 20px;
-  color: white;
+}
+
+.hero-text h1 {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  font-size: 40px;
+  color: #f1f1f1;
+  text-align: center;
+}
+
+.hero-text p {
+  position: relative;
+  font-size: 18px;
+  color: #f1f1f1;
+  text-align: center;
 }
 
 .hero-text button {
+  letter-spacing: 1px;
   border: none;
   display: inline-block;
   font-size: 15px;
@@ -87,7 +102,9 @@ body {
 }
 
 .design-inspires-text h1 {
-  font-size: 43px;
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
   padding: 10px;
   letter-spacing: 1px;
   color: #000;
@@ -163,7 +180,7 @@ body {
 }
 
 .featured {
-  padding: 50px 0 0 0;
+  padding: 50px 0 100px 0;
   text-align: center;
   height: 770px;
 }
@@ -174,7 +191,9 @@ body {
 }
 
 .featured h1 {
-  font-size: 35px;
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
   padding: 10px;
   letter-spacing: 1px;
   color: #000;
@@ -194,6 +213,52 @@ body {
   text-align: center;
   color: #a0a0a0;
 }
+
+.inspiration {
+  position: relative;
+  height: 504px;
+  width: 100%;
+  background-image: url("inspiration.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.ins-text {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #f1f1f1;
+}
+
+.ins-text h1 {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  font-size: 90px;
+  white-space: nowrap;
+}
+
+.ins-text p {
+  text-align: center;
+  font-size: 17px;
+  white-space: nowrap;
+  padding: 0 0 20px 0;
+  letter-spacing: 2px;
+  color: #f1f1f1;
+}
+
+.ins-text button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: #f1f1f1;
+  letter-spacing: 1px;
+  font-size: 13px;
+}
+
 @media screen and (max-width: 600px) {
   .topnav a,
   .topnav-right {
