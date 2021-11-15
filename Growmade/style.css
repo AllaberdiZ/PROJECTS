@@ -1,7 +1,6 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: "Roboto Condensed", sans-serif;
   overflow-x: hidden;
 }
 
@@ -339,17 +338,31 @@ body {
   font-size: 14px;
 }
 
-@media screen and (max-width: 600px) {
-  .topnav a,
-  .topnav-right {
-    float: none;
-    display: block;
-  }
+.hardway {
+  height: 770px;
+  text-align: center;
+}
 
-  .topnav-centered a {
-    position: relative;
-    top: 0;
-    left: 0;
-    transform: none;
-  }
+.hardway h2 {
+  font-family: "surveyor text a", "surveyor text b", Georgia, serif;
+  margin: 0;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 36px;
+  color: #000;
+  padding-top: 120px;
+}
+
+.hardway p {
+  font-family: din-2014, helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #a0a0a0;
+  padding: 18px 300px 80px 300px;
+}
+
+.hardway img {
+  width: 1052px;
+  height: 592px;
 }
