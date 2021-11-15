@@ -17,19 +17,34 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  float: left;
+  display: inline-block;
+  position: relative;
   color: #000;
   text-align: left;
-  padding: 0 10px;
+  margin: 0 10px;
+  padding-bottom: 2px;
   text-decoration: none;
 }
 
-.topnav a:hover:not(.logo) {
-  background-color: #ddd;
+.topnav a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  transform-origin: bottom center;
+  transition: transform 0.25s ease-out;
+}
+
+.topnav a:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom center;
 }
 
 .topnav-centered a {
-  float: none;
   position: absolute;
   top: 50%;
   left: 50%;
