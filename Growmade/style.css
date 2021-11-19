@@ -392,3 +392,21 @@ body {
   color: #a0a0a0;
   padding: 18px 290px 80px 290px;
 }
+
+.team-row {
+  width: 1300px;
+  margin: auto;
+}
+
+.team-column {
+  margin: 0 12px 27px 12px;
+
+  display: inline-block;
+  width: 187px;
+  height: 250px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
