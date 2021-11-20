@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@300&family=Source+Sans+Pro:wght@600&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@300&family=Source+Sans+Pro&display=swap");
 body {
   padding: 0;
   margin: 0;
@@ -8,6 +7,7 @@ body {
 
 .topnav {
   position: relative;
+  display: block;
   overflow: hidden;
   background-color: rgb(255, 255, 255);
   padding: 30px 80px 30px 50px;
@@ -148,7 +148,42 @@ body {
 
 .design-inspires-text {
   text-align: center;
-  padding: 100px 0;
+  padding: 80px 0;
+}
+
+.design-inspires button {
+  font-family: din-2014, helvetica, sans-serif;
+  margin: 0;
+  padding: 0 0 5px 0;
+  border: none;
+  background-color: transparent;
+  display: inline-block;
+  position: relative;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #000;
+  letter-spacing: 1.4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.design-inspires button::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(1);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  transform-origin: bottom center;
+  transition: transform 0.25s ease-out;
+}
+
+.design-inspires button:hover::before {
+  transform: scaleX(0.75);
+  transform-origin: bottom center;
 }
 
 .design-inspires-text h1 {
@@ -175,19 +210,6 @@ body {
   padding: 0 0 20px 0;
   letter-spacing: 0.8px;
   color: #a0a0a0;
-}
-
-.design-inspires-text button {
-  font-family: din-2014, helvetica, sans-serif;
-  font-weight: 700;
-  line-height: 21px;
-  font-size: 14px;
-  letter-spacing: 1.4px;
-  border: none;
-  text-align: center;
-  background-color: transparent;
-  cursor: pointer;
-  color: #000;
 }
 
 .image-container {
@@ -243,7 +265,7 @@ body {
 
 .active,
 .dot:hover {
-  background-color: #717171;
+  background-color: rgb(22, 22, 22);
 }
 
 .featured {
@@ -311,7 +333,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #f1f1f1;
+  color: #fff;
 }
 
 .ins-text h1 {
@@ -319,6 +341,7 @@ body {
   font-weight: 300;
   line-height: 70px;
   font-style: normal;
+  color: #fff;
   margin: 0;
   padding: 0;
   position: relative;
@@ -336,18 +359,42 @@ body {
   font-size: 16px;
   white-space: nowrap;
   padding: 0 0 20px 0;
-  color: #f1f1f1;
+  color: #fff;
 }
 
 .ins-text button {
-  font-family: din-2014, helvetica, sans-serif;
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  padding: 0 0 5px 0;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 700;
   border: none;
   background-color: transparent;
   cursor: pointer;
-  color: #f1f1f1;
+  color: #fff;
   letter-spacing: 1.4px;
   font-size: 14px;
+}
+
+.ins-text button::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  transform: scaleX(1);
+  transform-origin: bottom center;
+  transition: transform 0.25s ease-out;
+}
+
+.ins-text button:hover::before {
+  transform: scaleX(0.75);
+  transform-origin: bottom center;
 }
 
 .hardway {
@@ -385,7 +432,6 @@ body {
   height: auto;
   text-align: center;
   margin: auto;
-  padding-bottom: 100px;
 }
 
 .team h2 {
@@ -474,6 +520,42 @@ body {
   transform-origin: bottom center;
 }
 
+.bottom-quote {
+  margin: 120px 50px 40px 50px;
+  padding: 120px 40px;
+  background-color: #9aa8b1;
+  text-align: center;
+}
+
+.bottom-quote img {
+  padding: 0;
+  margin: 0;
+  width: 40px;
+  height: auto;
+}
+
+.bottom-quote h2 {
+  margin: 0;
+  font-size: 46px;
+  padding: 25px;
+  font-family: "surveyor text a", "surveyor text b", Georgia, serif;
+  line-height: 58px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.bottom-quote p {
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #fff;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 0.8px;
+}
 .sticky {
   position: fixed;
   top: 0;
