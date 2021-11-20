@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@300&family=Source+Sans+Pro:wght@600&display=swap");
+
 body {
   padding: 0;
   margin: 0;
@@ -12,10 +14,10 @@ body {
 }
 
 .topnav a {
-  font-family: din-2014, helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 900;
   display: inline-block;
   position: relative;
   color: #000;
@@ -94,7 +96,9 @@ body {
 }
 
 .hero-text p {
-  font-family: din-2014, helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   letter-spacing: 0.8px;
   font-weight: 300;
   position: relative;
@@ -161,7 +165,9 @@ body {
 }
 
 .design-inspires-text p {
-  font-family: din-2014, helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 300;
@@ -247,7 +253,9 @@ body {
 }
 
 .featured p {
-  font-family: din-2014, helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 300;
   font-size: 16px;
   letter-spacing: 0.8px;
@@ -276,7 +284,9 @@ body {
 }
 
 .column p {
-  font-family: din-2014, helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
   line-height: 21px;
   font-size: 14px;
@@ -317,7 +327,9 @@ body {
 }
 
 .ins-text p {
-  font-family: din-2014, helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 300;
   text-align: center;
   letter-spacing: 0.8px;
@@ -354,7 +366,9 @@ body {
 }
 
 .hardway p {
-  font-family: din-2014, helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
@@ -368,9 +382,10 @@ body {
 }
 
 .team {
-  height: 770px;
+  height: auto;
   text-align: center;
   margin: auto;
+  padding-bottom: 100px;
 }
 
 .team h2 {
@@ -385,7 +400,9 @@ body {
 }
 
 .team p {
-  font-family: din-2014, helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
@@ -400,7 +417,6 @@ body {
 
 .team-column {
   margin: 0 12px 27px 12px;
-
   display: inline-block;
   width: 187px;
   height: 250px;
@@ -409,4 +425,57 @@ body {
 .card img {
   width: 100%;
   height: auto;
+}
+
+.team .btm-text {
+  text-align: center;
+  font-family: "surveyor text a", "surveyor text b", Georgia, serif;
+  margin: 0;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 36px;
+  color: #000;
+  padding: 100px 0 18px 0;
+}
+
+.team button {
+  display: inline-block;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000;
+  letter-spacing: 1.4px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  text-align: center;
+  padding: 22px 0 0 0;
+}
+
+.team button::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(1);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  transform-origin: bottom center;
+  transition: transform 0.25s ease-out;
+}
+
+.team button:hover::before {
+  transform: scaleX(0.85);
+  transform-origin: bottom center;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
