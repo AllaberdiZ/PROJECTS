@@ -563,6 +563,9 @@ body {
 }
 
 .newsletter button {
+  position: static;
+  display: block;
+  padding: 25px 30px;
   background-color: #000;
   color: #fff;
   width: 81px;
@@ -578,6 +581,19 @@ body {
   float: right;
 }
 .newsletter {
+  position: relative;
   overflow: auto;
   margin: 0 50px;
+  background-color: #f9f9f9;
+}
+.links a {
+  position: relative;
+  font-family: "surveyor text a", "surveyor text b", Georgia, serif;
+  text-decoration: none;
+  display: block;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 300;
+  padding-bottom: 11px;
+  color: #000;
 }
