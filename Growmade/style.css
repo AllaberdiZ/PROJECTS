@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@300&family=Source+Sans+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Roboto&family=Roboto+Condensed:wght@300&family=Source+Sans+Pro:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Roboto&family=Roboto+Condensed:wght@300&family=Shippori+Antique&family=Source+Sans+Pro:ital@0;1&display=swap");
 body {
   padding: 0;
   margin: 0;
@@ -562,33 +565,45 @@ body {
   width: 100%;
 }
 
-.newsletter button {
-  position: static;
-  display: block;
-  padding: 25px 30px;
+.go-up {
   background-color: #000;
   color: #fff;
-  width: 81px;
-  height: 81px;
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-family: "Roboto Condensed", sans-serif;
   font-family: "Source Sans Pro", sans-serif;
-  font-weight: 700;
-  font-size: 16px;
   line-height: 16px;
+  cursor: pointer;
+  width: 81px;
+  height: 81px;
   border: none;
-  float: right;
+  padding: 25px 30px;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  position: relative;
+  left: 96.29355077835434%;
+  transform: translateX(-100%);
+}
+
+.newsletter button:hover {
+  background-color: #444444;
 }
 .newsletter {
   position: relative;
-  overflow: auto;
-  margin: 0 50px;
+  overflow: hidden;
+  margin: 0;
   background-color: #f9f9f9;
+}
+
+.links {
+  float: left;
 }
 .links a {
   position: relative;
-  font-family: "surveyor text a", "surveyor text b", Georgia, serif;
+  font-family: "Lora", serif;
   text-decoration: none;
   display: block;
   font-size: 24px;
@@ -596,4 +611,32 @@ body {
   font-weight: 300;
   padding-bottom: 11px;
   color: #000;
+  margin-left: 50px;
+}
+
+.mail {
+  position: relative;
+  display: inline-block;
+  width: 500px;
+  top: 0;
+  padding: 0 12px;
+  margin: 0;
+}
+
+.mail h3 {
+  padding: 0;
+  margin: 0;
+  font-family: "Lora", serif;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+.mail p {
+  width: 350px;
+  font-family: "Lora", serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #a0a0a0;
+  font-style: italic;
+  word-wrap: break-word;
 }
