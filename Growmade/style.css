@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Roboto&family=Roboto+Condensed:wght@300&family=Source+Sans+Pro:ital@0;1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Roboto&family=Roboto+Condensed:wght@300&family=Shippori+Antique&family=Source+Sans+Pro:ital@0;1&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&family=Source+Sans+Pro:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&family=Source+Sans+Pro:wght@700&display=swap");
 body {
   padding: 0;
   margin: 0;
@@ -649,6 +649,8 @@ body {
   outline: 0;
   height: 41px;
   width: 320px;
+  font-family: "Noto Serif", serif;
+  background-color: transparent;
 }
 
 ::placeholder {
@@ -662,10 +664,12 @@ body {
   height: 41px;
   border: none;
   font-family: "Source Sans Pro", sans-serif;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 16px;
   padding-left: 20px;
+  color: #424242;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .mail button:hover {
