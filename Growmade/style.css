@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Roboto&family=Roboto+Condensed:wght@300&family=Source+Sans+Pro:ital@0;1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Roboto&family=Roboto+Condensed:wght@300&family=Shippori+Antique&family=Source+Sans+Pro:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&family=Source+Sans+Pro:wght@600&display=swap");
 body {
   padding: 0;
   margin: 0;
@@ -609,7 +610,7 @@ body {
   font-size: 24px;
   line-height: 24px;
   font-weight: 300;
-  padding-bottom: 11px;
+  margin-bottom: 15px;
   color: #000;
   margin-left: 50px;
 }
@@ -632,11 +633,41 @@ body {
 }
 
 .mail p {
+  margin: 20px 0 50px 0;
   width: 350px;
-  font-family: "Lora", serif;
+  font-family: "Noto Serif", serif;
+  font-style: italic;
   font-size: 14px;
   font-weight: 300;
   color: #a0a0a0;
   font-style: italic;
   word-wrap: break-word;
+}
+
+.mail input {
+  border-width: 0 0 2px;
+  outline: 0;
+  height: 41px;
+  width: 320px;
+}
+
+::placeholder {
+  font-family: "Noto Serif", serif;
+  font-size: 14px;
+}
+
+.mail button {
+  position: absolute;
+  right: 188px;
+  height: 41px;
+  border: none;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  padding-left: 20px;
+  background-color: transparent;
+}
+
+.mail button:hover {
+  background-color: unset;
 }
