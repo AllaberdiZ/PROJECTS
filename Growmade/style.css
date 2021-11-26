@@ -698,10 +698,11 @@ body {
   position: relative;
   text-decoration: none;
   font-size: 14px;
-  color: #000;
+  color: #707a7f;
   padding: 0 17px;
 }
 
 .footer-right {
-  float: right;
+  position: absolute;
+  right: 50px;
 }
