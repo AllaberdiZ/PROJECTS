@@ -331,7 +331,7 @@ body {
 }
 
 .ins-text {
-  position: absolute;
+  position: relative;
   text-align: center;
   top: 50%;
   left: 50%;
@@ -419,6 +419,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-family: "Roboto Condensed", sans-serif;
   font-family: "Source Sans Pro", sans-serif;
+  position: relative;
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
