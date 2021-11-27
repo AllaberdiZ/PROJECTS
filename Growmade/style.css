@@ -679,9 +679,9 @@ body {
 .footer {
   overflow: hidden;
   margin: 0 50px;
-  display: inline-flex;
+  /* display: inline-flex; */
   padding: 80px 0 16px 0;
-  float: left;
+  /* float: left; */
 }
 
 .footer img {
@@ -703,6 +703,6 @@ body {
 }
 
 .footer-right {
-  position: absolute;
+  float: right;
   right: 50px;
 }
