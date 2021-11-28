@@ -305,6 +305,10 @@ body {
   height: 434px;
 }
 
+.column1 img:h {
+  content: url(/Growmade/products/walnut-magsafe-stand-hover.jpg);
+}
+
 .column p {
   font-family: "Roboto", sans-serif;
   font-family: "Roboto Condensed", sans-serif;
