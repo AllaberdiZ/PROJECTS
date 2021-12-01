@@ -1,2 +1,2 @@
 # PROJECTS
-Websites or projects created by me ;)
+Websites or projects cloned by me ;)
